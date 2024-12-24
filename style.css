@@ -1,0 +1,47 @@
+:root { --mavi: #6bc2f1; }
+header { background: url('img/headerbg.jpg') 60% 50%/cover }
+
+.text-mavi { color: var(--mavi) }
+.bg-mavi { background-color: var(--mavi) }
+.bg-boz { background-color: #f1f1f1 }
+.bg-tmavi{
+    background-color: #072035;
+}
+.min-vh-50 { min-height: 50vh }
+
+#f1 { background: url('img/f1.jpg') center/cover }
+#f2 { background: url('img/f2.jpg') center/cover }
+#f1:hover, #f2:hover { opacity: .5 }
+#f1:hover a, #f2:hover a { display: initial!important }
+
+.item-size{
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.img-size{
+    width: 300px;
+}
+.border-mavi{
+    border: 1px solid var(--mavi);
+}
+
+.fs{
+    font-size: 5em;
+}
+
+.bx-sizing {
+    box-sizing: border-box!important;
+}
+
+.carousel-indicators img {
+    width: 45px!important;
+    height: 45px!important;
+    margin: 0 5px!important;
+}
+.carousel-indicators img.active {
+    transform: scale(1.5);
+}
+
+
+
